@@ -1,4 +1,3 @@
-# thirdparty_project
 
 A new Flutter project.
 
