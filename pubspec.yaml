@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: flutter_demo
+=======
+name: thirdparty_project
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +23,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+<<<<<<< HEAD
   sdk: '>=3.3.4 <4.0.0'
+=======
+  sdk: ^3.12.0
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -27,12 +35,23 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+<<<<<<< HEAD
 
 dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.0
 
+=======
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
 
 dev_dependencies:
   flutter_test:
@@ -43,8 +62,12 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+<<<<<<< HEAD
   flutter_lints: ^3.0.0
 
+=======
+  flutter_lints: ^6.0.0
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -63,10 +86,17 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
+<<<<<<< HEAD
   # https://flutter.dev/assets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
+=======
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -86,4 +116,8 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
+<<<<<<< HEAD
   # see https://flutter.dev/custom-fonts/#from-packages
+=======
+  # see https://flutter.dev/to/font-from-package
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126

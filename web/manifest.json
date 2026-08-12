@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "flutter_demo",
     "short_name": "flutter_demo",
+=======
+    "name": "thirdparty_project",
+    "short_name": "thirdparty_project",
+>>>>>>> 3174769953df47ebb6a4a3cc0c22e5445e7c8126
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
